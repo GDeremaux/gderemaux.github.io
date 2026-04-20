@@ -1,0 +1,33 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "Projects" [ref=e6] [cursor=pointer]:
+        - /url: /projects
+      - link "About" [ref=e7] [cursor=pointer]:
+        - /url: /about
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - paragraph [ref=e10]: Projects
+      - heading "Math & Computer Science Student" [level=1] [ref=e11]
+      - paragraph [ref=e12]:
+        - text: I'm a math & computer science student @
+        - link "Université Paris Cité" [ref=e13] [cursor=pointer]:
+          - /url: https://www.u-paris.fr/
+        - text: . Passionate about software development, machine learning, automated video editing and history.
+      - paragraph [ref=e14]: "Contact : gustave.deremaux (at) gmail [dot] com"
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - heading "Project Title" [level=3] [ref=e18]
+          - paragraph [ref=e19]: Short description of the project.
+          - link "View Project" [ref=e20] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e21]:
+          - heading "Project Title" [level=3] [ref=e23]
+          - paragraph [ref=e24]: Short description of the project.
+          - link "View Project" [ref=e25] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e26]:
+          - heading "Project Title" [level=3] [ref=e28]
+          - paragraph [ref=e29]: Short description of the project.
+          - link "View Project" [ref=e30] [cursor=pointer]:
+            - /url: "#"

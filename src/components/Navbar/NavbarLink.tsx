@@ -13,7 +13,7 @@ export default function NavbarLink(
             to={to}
             className={ ({isActive}) =>
                 [
-                    "h-10 inline-flex flex-row items-center p-4 rounded-full",
+                    "h-10 inline-flex flex-row items-center p-4 rounded-full transition duration-300 hover:bg-neutral-950 hover:text-neutral-50",
                     (isActive ? "bg-neutral-950 text-neutral-50" : "")
                 ].join(" ")
             }
